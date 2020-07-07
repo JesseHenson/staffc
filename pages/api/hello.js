@@ -4,8 +4,8 @@ var xml2js = require("xml2js");
 
 export default (req, res) => {
   if (req.method === "POST") {
-    console.log(res);
-    res.status(200).json('worked')
+    console.log("we'll grab the data from here");
+    res.status(200).json("worked");
   } else {
     console.log("worked");
     res.status(200).json("worked");
