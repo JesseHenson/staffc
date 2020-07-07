@@ -5,6 +5,7 @@ export default (req, res) => {
     console.log("worked");
     res.status(200).json("worked");
   } else {
-    // Handle any other HTTP method
+    res.status(200).json("worked");
+    res.status(200);
   }
 };
